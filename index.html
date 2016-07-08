@@ -13,8 +13,62 @@
   </ul>
 </header>
 
+<form action="">
+  <fieldset>
+    <label class="hidden" for="firstName">First Name</label>
+    <input type="text" required name="firstName" placeholder="First Name" id="firstName">
+    
+    <label class="hidden" for="email">email</label>
+    <input type="email" required name="email" placeholder="foo@bar.com" id="email">
+
+    <label class="hidden" for="age">Age</label>
+    <input type="number" required name="age" min="18" max="20" placeholder="65" id="age">
+
+    <label class="hidden" for="bio">Bio</label>
+    <textarea placeholder="A little about yourself" id="bio"></textarea>
+
+    <label class="hidden" for="website">Personal Site</label>
+    <input class="min_input" required placeholder="http://nothing.com" type="url" name="website" id="website">
+
+    <label class="hidden" for="favColor">Favorite Color</label>
+    <input type="color" value="#00FF00" name="favColor" id="favColor">
+
+    <input type="text" name="country" value="USA" readonly="">
+
+    <fieldset>
+      <label for="peanuts">Peanuts</label>
+      <input type="checkbox" value="peanuts" id="peanuts" name="peanuts">
+
+      <label for="shellfish">Shellfish</label>
+      <input type="checkbox" value="shellfish" id="shellfish" name="shellfish">
+
+      <label for="soy">Soy</label>
+      <input type="checkbox" value="soy" id="soy" name="soy">
+
+      <label for="kiwi">Kiwi</label>
+      <input type="checkbox" value="kiwi" id="kiwi" name="kiwi">
+
+      <label for="Pollen">Pollen</label>
+      <input type="checkbox" value="pollen" id="pollen" name="pollen">
+    </fieldset>
+
+    <fieldset>
+      <label for="red">Red</label>
+      <input type="radio" checked value="red" name="rgb" id="red">
+      <label for="green">Green</label>
+      <input type="radio" required value="green" name="rgb" id="green">
+      <label for="blue">Blue</label>
+      <input type="radio" value="blue" name="rgb" id="blue">
+    </fieldset>
+
+    <input type="submit" value="Other Text" name="submit">
+    <!-- <button disabled type="submit">Other Text</button> -->
+  </fieldset>
+</form>
+
 <article id="article1">
   <header>
+    <marquee><h2>www.geocities.com</h2></marquee>
     <h2>This is a meat header.</h2>
   </header>
     <!-- This section is about meat. And HREFs. -->

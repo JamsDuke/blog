@@ -5,7 +5,15 @@
 body {
   font-family: sans-serif;
   color: black;
-  background-color: #256E5E;
+  background-color: #748BA7;
+}
+
+.hidden {
+  display: none;
+}
+
+.min_input {
+  min-width: 500px;
 }
 
 img {
@@ -18,12 +26,12 @@ img {
   padding: 20px 35px; /* top&bottom left&right*/
   /*padding: 5px 4px 3px; /* top left&right bottom */
   /* */
-  background-color: #AA6C39;
+  background-color: #FFEDAA;
   margin: 10px;
 }
 
 #article1 section {
-  color: blue;
+  color: black;
 }
 
 a {
