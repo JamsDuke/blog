@@ -26,12 +26,42 @@ img {
   padding: 20px 35px; /* top&bottom left&right*/
   /*padding: 5px 4px 3px; /* top left&right bottom */
   /* */
-  background-color: #FFEDAA;
   margin: 10px;
 }
 
-#article1 section {
-  color: black;
+#article1 {
+  background-color: #FFEDAA;
+  font-family: serif;
+  font-size: 20px;
+  color: tomato;
+  line-height: 1.5; 
+  padding: 10px;
+  border: thick solid black;
+  border-radius: 5px;
+}
+
+#article2 {
+  background-color: lightgreen;
+  font-family: monospace;
+  font-size: 16px;
+  color: darkblue;
+  line-height: 1.5em; 
+  padding: 20px;
+  border: thick solid orange;
+  border-radius: 2em;
+
+}
+
+#article3 {
+  background-color: lightblue;
+  font-family: cursive;
+  font-size: 18px;
+  color: orange;
+  line-height: 125%; 
+  padding: 30px;
+  border: thick solid blue;
+  border-radius: 8%;
+
 }
 
 a {
